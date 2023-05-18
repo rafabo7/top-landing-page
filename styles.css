@@ -71,13 +71,13 @@ ul{
     font-weight: 1000;
 }
 
-.hero-text button{
-    padding: 8px 26px;
+.hero-text button, .banner-button button{
+    padding: 8px 32px;
     font-size: 20px;
     font-weight: 600;
     color: #f9faf8;
     background-color: #3882f6;
-    border-radius: 12px;
+    border-radius: 8px;
     border: none;
 
 }
@@ -100,18 +100,13 @@ ul{
     justify-content: space-evenly;
 }
 
-.img-container{
-    border-radius: 6px;
-    border: 3px solid #3882f6;
-    padding: 1px;
-    
 
-}
 
 .card-img {
     width: 216px;
     height: 154px;
-    border-radius: 6px;
+    border-radius: 8px;
+    border: 4px solid #3882f6;
 }
 
 .card-text {
@@ -142,8 +137,50 @@ blockquote p {
 
 blockquote cite {
     text-align: right;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 28px;
     display: block;
  }
+ 
+ .banner {
+    background-color: #3882f6;
+    display: flex;
+    width: 60%;
+    margin: 90px auto;
+    padding: 32px;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    color:#f9faf8;
+ }
 
+ .banner-text h1{
+    margin: 0;
+    font-size: 26px;
+ }
+
+ .banner-text p{
+    font-size: 20px;
+    margin: 0;
+    color:#f9faf8;
+ }
+ .banner-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .banner-button button {
+    border: 3px solid #f9faf8;
+
+ }
+
+ footer {
+    background-color:#141b23;
+    color:#f9faf8;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+ }
